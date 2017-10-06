@@ -3,7 +3,7 @@ function produceDrivingRange(blockRange){
     let s = parseInt(a);
     let e = parseInt(b);
     let distanceToTravel = Math.abs(e - s);
-    let dif = blockRange - distanceToTravel;
+    let difference = blockRange - distanceToTravel;
     if (difference > 0) {
       return `within range`
     }else {
