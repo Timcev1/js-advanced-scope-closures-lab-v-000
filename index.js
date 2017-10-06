@@ -1,6 +1,6 @@
-function produceDrivingRange(triprange){
+function produceDrivingRange(blockRange){
   return function(range){
-    return range * triprange;
+    return range * blockRange;
   }
 }
 
