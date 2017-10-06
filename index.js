@@ -1,6 +1,13 @@
 function produceDrivingRange(blockRange){
-  return function(a, bug){
-
+  return function(a, b){
+    let s = parseInt(a);
+    let e = parseInt(b);
+    let distance = Math.abs(end - start);
+    if (difference > 0) {
+      return `within range`
+    }else {
+      return `${Math.abs(difference)}`
+    }
   }
 }
 
